@@ -1,3 +1,7 @@
+import pytest
+
+
+@pytest.mark.smoke
 def test_check_payload_for_activity(activityservice, activity):
     assert activityservice.from_response_activity() == activity
 

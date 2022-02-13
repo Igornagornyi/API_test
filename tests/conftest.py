@@ -1,10 +1,10 @@
 import pytest
 
-from core.config.config_json import ConfigJson
-from core.config.config import Config
+from core.config import ConfigJson
+from core.config import Config
 
-from activity_entities.activity import Activity
-from activity_entities.activity_service import ActivityService
+from activity_entities import Activity
+from activity_entities import ActivityService
 
 
 @pytest.fixture

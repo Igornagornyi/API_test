@@ -6,6 +6,7 @@ from core.config.config import Config
 from activity_entities.activity import Activity
 from activity_entities.activity_service import ActivityService
 
+
 @pytest.fixture
 def config():
     yield Config()
